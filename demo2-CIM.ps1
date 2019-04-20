@@ -16,4 +16,5 @@ catch {
 }
 $CimQueryResults
 
-#maybee add member 
+#maybe add member 
+#wbemtest.exe root\SMS\site_LAB to see all the available classes and methods you can work with.
