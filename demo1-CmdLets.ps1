@@ -20,3 +20,5 @@ Get-CMDevice -Name CM1
 (Get-CMDevice -Name CM1).ResourceID | clip
 
 (Get-CMCollection -Name LabCollection).CollectionID | clip
+
+#Get-CmDevice -Verbose -CollectionName "LabTest"

@@ -1,8 +1,8 @@
 Set-Location c:
 
+Import-Module C:\source\mmsSQL -Force  #These should be in your module path.
 Import-Module C:\source\mmsConfigMgr -Force
 
-Import-Module C:\source\mmsSQL -Force  #These should be in your module path.
 
 Get-Module
 Get-Command -Module mmsSQL
